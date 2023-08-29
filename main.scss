@@ -635,13 +635,6 @@ input:focus,
 
 /* MOBILE VIEW SCREEN MEDIAL QUARIES*/
 @media (max-width: 700px) {
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    // scroll-snap-type: y;
-  }
   .nav-bar {
     display: grid;
     grid-template-areas:
@@ -738,10 +731,66 @@ input:focus,
     }
   }
   .socials {
-    display: none;
+    li {
+      transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -o-transform: scale(1.5);
+    }
   }
   .float-parent {
-    display: none;
+    position: absolute;
+    z-index: -99;
+  }
+  .bug {
+    position: absolute;
+    bottom: 101px;
+    right: 128px;
+    width: 26px;
+  }
+  .square {
+    position: absolute;
+    left: -107px;
+    top: 79px;
+    width: 27px;
+  }
+  .branch {
+    position: absolute;
+    left: -85px;
+    top: -230px;
+    width: 25px;
+  }
+  .fork {
+    position: absolute;
+
+    bottom: -298px;
+    left: -158px;
+    width: 30px;
+  }
+  .hovytech {
+    position: absolute;
+    position: absolute;
+    right: -139px;
+    top: -82px;
+    width: 40px;
+  }
+  .hexagon {
+    position: absolute;
+    bottom: -170px;
+    width: 40px;
+  }
+  .triangle {
+    position: absolute;
+    bottom: -270px;
+    right: -130px;
+    width: 40px;
+  }
+  .code-icon {
+    position: absolute;
+    top: -200px;
+    right: -100px;
+    width: 35px;
   }
   .skills {
     width: 100%;
@@ -824,13 +873,15 @@ input:focus,
 
 /* tablet VIEW SCREEN MEDIAL QUARIES*/
 @media (min-width: 700px) and (max-width: 1226px) {
-  .float-parent,
-  .socials {
-    display: none;
-  }
   #about {
     display: flex;
     flex-direction: column;
+  }
+  .bug {
+    position: absolute;
+    bottom: 101px;
+    right: 18px;
+    width: 26px;
   }
   .about,
   .skills {
