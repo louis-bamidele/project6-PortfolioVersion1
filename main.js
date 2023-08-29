@@ -98,11 +98,11 @@ function handleSubmit(e) {
   };
 
   const fetchOptions = {
-    method: "POST", // HTTP method
+    method: "POST",
     headers: {
-      "Content-Type": "application/json", // Specify the content type
+      "Content-Type": "application/json",
     },
-    body: JSON.stringify(postData), // Convert data to JSON format
+    body: JSON.stringify(postData),
   };
   console.log(postData);
   fetch(apiUrl, fetchOptions)

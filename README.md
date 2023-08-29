@@ -1,7 +1,5 @@
 # E-commerce - headphone ecommerce website
 
-
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -11,8 +9,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-
-
 
 ## Overview
 
@@ -34,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/louis-bamidele/project5-SweetSound)
+- Solution URL: [solution](https://github.com/louis-bamidele/project6-PortfolioVersion1)
 - Live Site URL: [live site](https://silver-lebkuchen-79cc2f.netlify.app/)
 
 ## My process

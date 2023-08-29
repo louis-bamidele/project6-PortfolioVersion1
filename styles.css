@@ -291,7 +291,7 @@ p {
   margin: 0.7rem 0;
 }
 #about .about-text {
-  text-align: justify;
+  text-align: left;
   margin: 0.5rem 0;
 }
 
@@ -778,7 +778,7 @@ body {
   /* about styles*/
   #about {
     flex-direction: column;
-    margin: 0.5rem 10px;
+    margin: 0.5rem 2rem;
   }
   #about .about {
     text-align: left;
