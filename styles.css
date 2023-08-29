@@ -901,6 +901,11 @@ input:focus,
     padding-bottom: 1rem;
   }
 }
+@media (max-width: 400px) {
+  .projects {
+    margin: 1rem 1.5rem;
+  }
+}
 /* tablet VIEW SCREEN MEDIAL QUARIES*/
 @media (min-width: 700px) and (max-width: 1226px) {
   #about {

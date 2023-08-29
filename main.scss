@@ -634,6 +634,7 @@ input:focus,
 }
 
 /* MOBILE VIEW SCREEN MEDIAL QUARIES*/
+
 @media (max-width: 700px) {
   .nav-bar {
     display: grid;
@@ -868,6 +869,11 @@ input:focus,
       margin: 0;
       padding-bottom: 1rem;
     }
+  }
+}
+@media (max-width: 400px) {
+  .projects {
+    margin: 1rem 1.5rem;
   }
 }
 
