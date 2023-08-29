@@ -853,8 +853,8 @@ input:focus,
     display: flex;
     flex-direction: column;
     justify-items: center;
-    gap: 1rem;
-    margin: 1rem 1.5rem;
+    gap: 2.5rem;
+    margin: 1rem 4rem;
   }
   .projects .card {
     flex: 1;
@@ -926,8 +926,9 @@ input:focus,
   }
 
   .projects {
+    margin: 2rem 3.5rem;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 3rem;
   }
 
   #projects {
