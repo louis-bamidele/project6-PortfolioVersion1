@@ -581,8 +581,8 @@ form {
   color: white;
   background: inherit;
   resize: none;
-  border-top-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
+  border-top-color: rgba(10, 7, 97, 0.4901960784);
+  border-left-color: rgba(10, 7, 97, 0.4901960784);
   border-right-color: rgb(56, 55, 84);
   border-bottom-color: rgb(56, 55, 84);
 }
