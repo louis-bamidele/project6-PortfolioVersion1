@@ -13,9 +13,9 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
-  background-image: radial-gradient(circle at top center, #a8a5a5, #535151);
+  background-color: rgb(6, 5, 34);
   background-repeat: no-repeat;
-  color: #f5f3f3;
+  color: #ffffff;
   font-size: 15px;
   width: 100%;
   height: 100%;
@@ -215,7 +215,7 @@ p {
   list-style: none;
 }
 .socials a {
-  box-shadow: 0 0 2px 2px #7e7c7c;
+  box-shadow: 0 0 2px 2px rgb(56, 55, 84);
 }
 .socials a:hover {
   color: #30d5c8;
@@ -225,7 +225,7 @@ p {
 
 .scroll {
   position: absolute;
-  right: 20px;
+  right: 0;
   bottom: 45px;
   transform: rotate(90deg);
   cursor: pointer;
@@ -323,7 +323,7 @@ p {
   margin: 0;
 }
 .skills .icon:hover {
-  box-shadow: 0 0 2px 2px #6a6a6a;
+  box-shadow: 0 0 2px 2px rgb(56, 55, 84);
   animation: box-shadow 300ms ease-in-out 2s center;
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -346,6 +346,18 @@ p {
 #projects {
   margin: 1rem 2rem;
   padding-top: 4rem;
+}
+#projects h3 {
+  position: relative;
+}
+#projects h3::after {
+  position: absolute;
+  left: 10px;
+  bottom: -5px;
+  font-weight: lighter;
+  text-transform: lowercase;
+  font-size: 10px;
+  content: "hover or click and hold pictures for more details";
 }
 
 .projects {
@@ -414,28 +426,23 @@ p {
   font-size: 1rem;
   color: #eeeeee;
   position: relative;
+  width: fit-content;
 }
 .card-content li:hover {
   opacity: 0.5;
   transition: all 250ms ease-in-out;
 }
 .card-content li::after {
+  content: attr(data-info);
   position: absolute;
   bottom: -20px;
-  left: 0;
+  left: 50%;
   font-size: 0.7rem;
-  text-align: center;
-}
-.card-content li:nth-child(1)::after {
-  content: "design";
-  left: -7px;
-}
-.card-content li:nth-child(2)::after {
-  content: "code";
-}
-.card-content li:nth-child(3)::after {
-  content: "website";
-  left: -6px;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
 }
 
 .card:hover .card-content {
@@ -574,10 +581,10 @@ form {
   color: white;
   background: inherit;
   resize: none;
-  border-top-color: black;
-  border-left-color: black;
-  border-right-color: rgb(161, 159, 159);
-  border-bottom-color: rgb(161, 159, 159);
+  border-top-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-right-color: rgb(56, 55, 84);
+  border-bottom-color: rgb(56, 55, 84);
 }
 
 #textarea {
@@ -606,10 +613,10 @@ input:focus,
 .btn {
   padding: 0.5rem 1rem;
   border-style: outset;
-  border-top-color: rgb(161, 159, 159);
-  border-left-color: rgb(161, 159, 159);
-  border-right-color: black;
-  border-bottom-color: black;
+  border-top-color: rgb(56, 55, 84);
+  border-left-color: rgb(56, 55, 84);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
   border-radius: 6px;
   font-size: 1rem;
   font-family: "Chivo", sans-serif;
@@ -625,10 +632,10 @@ input:focus,
 
 .click {
   border-style: inset;
-  border-top-color: black;
-  border-left-color: black;
-  border-right-color: rgb(161, 159, 159);
-  border-bottom-color: rgb(161, 159, 159);
+  border-top-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-right-color: rgb(56, 55, 84);
+  border-bottom-color: rgb(56, 55, 84);
 }
 
 #footer {
@@ -640,8 +647,8 @@ input:focus,
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  background-color: #212121;
-  color: rgb(208, 201, 201);
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   padding: 1rem 0.5rem;
 }
 
@@ -677,6 +684,11 @@ input:focus,
 
   .block {
     display: block !important;
+    transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
   }
 
   .hamburger {
