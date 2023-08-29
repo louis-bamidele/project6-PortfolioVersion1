@@ -20,7 +20,7 @@ Users should be able to:
 - Discover a dynamic exposition of my diverse skillset.
 - project showcase. My previous endeavors come to life through visually compelling imagery
 - contact form and input validation.
--  With stringent input validation mechanisms in place
+- With stringent input validation mechanisms in place
 - Thank you for visiting my portfolio. I look forward to the opportunity of connecting and collaborating.
 
 ### Screenshot
@@ -30,11 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/louis-bamidele/project6-PortfolioVersion1)
-<<<<<<< HEAD
-- Live Site URL: [live site](https://silver-lebkuchen-79cc2f.netlify.app/)
-=======
 - Live Site URL: [live site](https://louis-bamidele.github.io/project6-PortfolioVersion1/)
->>>>>>> fe68345f0f31c86acd665b57dae125b70a6e82fd
 
 ## My process
 
@@ -53,8 +49,7 @@ i learned alot but my favourite function is the function i wrote to validate the
 See code snippets, see below:
 
 ```javascript
- 
- function handleInputChange(e) {
+function handleInputChange(e) {
   let { value, name } = e;
   console.log(value, name);
   let regex = "";
